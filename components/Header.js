@@ -57,7 +57,7 @@ function Header() {
               {/* right items */}
               <div className='flex space-x-2'>
                 {/* phones */}
-                <div className='hidden'>
+                <div className=' flex  space-x-2 hidden-1'>
                 <PersonAddAlt1OutlinedIcon className='h-6 md:hidden lg:hidden xl:hidden 2xl:hidden hover:text-orange-500'/>
                 <QuestionMarkCircleIcon className='h-6 md:hidden lg:hidden xl:hidden 2xl:hidden hover:text-orange-500'/>
                 <ShoppingCartOutlinedIcon className='h-6 md:hidden lg:hidden xl:hidden 2xl:hidden hover:text-orange-500'/>

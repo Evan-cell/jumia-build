@@ -5,7 +5,7 @@
 .main{
     background-color: black;
 }
-.hidden{
+.hidden-1{
     @media (min-width: 768px) {
         display: none;
     }
