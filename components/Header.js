@@ -57,9 +57,11 @@ function Header() {
               {/* right items */}
               <div className='flex space-x-2'>
                 {/* phones */}
-                <PersonAddAlt1OutlinedIcon className='h-6 md:hidden lg:hidden hover:text-orange-500'/>
-                <QuestionMarkCircleIcon className='h-6 md:hidden lg:hidden hover:text-orange-500'/>
-                <ShoppingCartOutlinedIcon className='h-6 md:hidden lg:hidden hover:text-orange-500'/>
+                
+                <PersonAddAlt1OutlinedIcon className='h-6 md:hidden lg:hidden xl:hidden 2xl:hidden hover:text-orange-500'/>
+                <QuestionMarkCircleIcon className='h-6 md:hidden lg:hidden xl:hidden 2xl:hidden hover:text-orange-500'/>
+                <ShoppingCartOutlinedIcon className='h-6 md:hidden lg:hidden xl:hidden 2xl:hidden hover:text-orange-500'/>
+                {/* hidden */}
                 <div className='hidden hover:text-orange-500 md:flex items-center space-x-2 cursor-pointer'>
                   <PersonAddAlt1OutlinedIcon className='h-6'/>
                   <h1 className='font-medium'>Hi, Evan</h1>
