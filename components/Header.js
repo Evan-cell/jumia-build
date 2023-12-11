@@ -45,10 +45,10 @@ function Header() {
                 <img src="https://1000logos.net/wp-content/uploads/2022/02/Jumia-Logo.png" alt="" className='h-16 md:ml-32' />
               </div>
               {/* searchbar */}
-              <div className='sm:flex items-center h-10 rounded-md  cursor-pointer '>
+              <div className='sm:flex items-center h-10 rounded-md  cursor-pointer pr-10 '>
                 <input 
                         type="text"
-                        className="border border-gray-400 p-2 md:h-full md:w-[600px] md:flex-grow rounded-md flex-shrink focus:outline-none px-4
+                        className="border w-[100px]  border-gray-400 p-2 md:h-full md:w-[600px] md:flex-grow rounded-md flex-shrink focus:outline-none px-4
                         "
                         placeholder="search products,brands and categories"
                 />
@@ -57,7 +57,7 @@ function Header() {
               {/* right items */}
               <div className='flex space-x-2'>
                 {/* phones */}
-                <div className=' flex  space-x-2 hidden-1'>
+                <div className=' flex space-x-2 hidden-1'>
                 <PersonAddAlt1OutlinedIcon className='h-6 md:hidden lg:hidden xl:hidden 2xl:hidden hover:text-orange-500'/>
                 <QuestionMarkCircleIcon className='h-6 md:hidden lg:hidden xl:hidden 2xl:hidden hover:text-orange-500'/>
                 <ShoppingCartOutlinedIcon className='h-6 md:hidden lg:hidden xl:hidden 2xl:hidden hover:text-orange-500'/>
