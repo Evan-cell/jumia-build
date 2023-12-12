@@ -9,7 +9,7 @@ import {StarIcon,StopIcon,ChevronDownIcon,QuestionMarkCircleIcon} from '@heroico
 import PersonAddAlt1OutlinedIcon from '@mui/icons-material/PersonAddAlt1Outlined';
 function Header() {
   return (
-    <div>
+    <div className=''>
         
         <Image
         src='https://ke.jumia.is/cms/2023/STB/KE_FreeDelivery_1122_STB.gif'
@@ -45,7 +45,7 @@ function Header() {
                 <img src="https://1000logos.net/wp-content/uploads/2022/02/Jumia-Logo.png" alt="" className='h-16 md:ml-32' />
               </div>
               {/* searchbar */}
-              <div className='sm:flex items-center h-10 rounded-md  cursor-pointer  '>
+              <div className='sm:flex items-center h-10 rounded-md  cursor-pointer pr-8  '>
                 <input 
                         type="text"
                         className="border w-[100px]  border-gray-400 p-2 md:h-full md:w-[600px] md:flex-grow rounded-md flex-shrink focus:outline-none px-4
@@ -55,7 +55,7 @@ function Header() {
                 <button className='bg-orange-400 text-white p-2 ml-2 rounded-md font-medium'>SEARCH</button>
               </div>
               {/* right items */}
-              <div className='flex space-x-2'>
+              <div className='flex  space-x-2 md:pr-5'>
                 {/* phones */}
                 <div className=' flex space-x-2 hidden-1 flex-end'>
                 <PersonAddAlt1OutlinedIcon className='h-6 md:hidden lg:hidden xl:hidden 2xl:hidden hover:text-orange-500'/>
