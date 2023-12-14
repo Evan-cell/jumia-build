@@ -8,6 +8,7 @@ import Flash from '@/components/Flash'
 import Deals from '@/components/Deals'
 import TopD from '@/components/TopD'
 import Toprated from '@/components/Toprated'
+import Carousel2 from '@/components/Carousel2'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -26,6 +27,7 @@ export default function Home() {
         <Deals/>
         <TopD/>
         <Toprated/>
+        <Carousel2/>
       </main>
       </div>
 
