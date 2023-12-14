@@ -6,6 +6,8 @@ import Categories from '@/components/Categories'
 import LastSearch from '@/components/LastSearch'
 import Flash from '@/components/Flash'
 import Deals from '@/components/Deals'
+import TopD from '@/components/TopD'
+import Toprated from '@/components/Toprated'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,6 +24,8 @@ export default function Home() {
         <LastSearch className='p-2'/>
         <Flash/>
         <Deals/>
+        <TopD/>
+        <Toprated/>
       </main>
       </div>
 
