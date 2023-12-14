@@ -9,8 +9,8 @@ import {StarIcon,StopIcon,ChevronDownIcon,QuestionMarkCircleIcon} from '@heroico
 import PersonAddAlt1OutlinedIcon from '@mui/icons-material/PersonAddAlt1Outlined';
 function Header() {
   return (
-    <div className=' '>
-      <div>
+    <div className='relative'>
+      <div className=''>
       <Image
         src='https://ke.jumia.is/cms/2023/STB/KE_FreeDelivery_1122_STB.gif'
         objectFit='contain'

@@ -4,6 +4,7 @@ import Header from '@/components/Header'
 import Banner from '@/components/Banner'
 import Categories from '@/components/Categories'
 import LastSearch from '@/components/LastSearch'
+import Flash from '@/components/Flash'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,6 +19,7 @@ export default function Home() {
         <Banner/>
         <Categories className=''/>
         <LastSearch className='p-2'/>
+        <Flash/>
       </main>
       </div>
 
