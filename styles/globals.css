@@ -19,3 +19,7 @@
 .h-card-height{
     height: 100%;
 }
+.end{
+    display: flex;
+    justify-content: flex-end;
+}
