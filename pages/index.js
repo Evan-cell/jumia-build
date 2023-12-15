@@ -12,6 +12,7 @@ import Carousel2 from '@/components/Carousel2'
 import Stylish from '@/components/Stylish'
 import Stores from '@/components/Stores'
 import Faqs from '@/components/Faqs'
+import Footer from '@/components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -35,7 +36,9 @@ export default function Home() {
         <Toprated/>
         <Stores/>
         <Faqs/>
+        
       </main>
+      <Footer/>
       </div>
 
       
