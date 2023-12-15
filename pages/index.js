@@ -9,6 +9,7 @@ import Deals from '@/components/Deals'
 import TopD from '@/components/TopD'
 import Toprated from '@/components/Toprated'
 import Carousel2 from '@/components/Carousel2'
+import Stylish from '@/components/Stylish'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -28,6 +29,7 @@ export default function Home() {
         <TopD/>
         <Toprated/>
         <Carousel2/>
+        <Stylish/>
       </main>
       </div>
 
