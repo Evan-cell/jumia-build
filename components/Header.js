@@ -7,7 +7,9 @@ import StarsOutlinedIcon from '@mui/icons-material/StarsOutlined';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import {StarIcon,StopIcon,ChevronDownIcon,QuestionMarkCircleIcon} from '@heroicons/react/24/outline'
 import PersonAddAlt1OutlinedIcon from '@mui/icons-material/PersonAddAlt1Outlined';
+import { useRouter } from 'next/router';
 function Header() {
+  const router = useRouter()
   return (
     <div className='relative'>
       <div className=''>
@@ -41,8 +43,8 @@ function Header() {
                 {/* navbar */}
             <div className='bg-white p-3 flex items-center space-x-2  md:space-x-32 '>
               {/* logo */}
-              <div>
-                <img src="https://1000logos.net/wp-content/uploads/2022/02/Jumia-Logo.png" alt="" className='h-16 md:ml-32' />
+              <div className='cursor-pointer'>
+                <img onClick={()=>router.push('/')} src="https://1000logos.net/wp-content/uploads/2022/02/Jumia-Logo.png" alt="" className='h-16 md:ml-32' />
               </div>
               {/* searchbar */}
               <div className='sm:flex items-center h-10 rounded-md  cursor-pointer pr-8  '>

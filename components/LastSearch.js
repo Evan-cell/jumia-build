@@ -1,6 +1,8 @@
 import React from 'react'
 import {ChevronRightIcon} from '@heroicons/react/24/outline'
+import { useRouter } from 'next/router'
 function LastSearch() {
+    const router = useRouter()
   return (
     <div className='bg-white mt-5'>
         <div className='flex p-2'>
@@ -9,7 +11,7 @@ function LastSearch() {
             </div>
             
             <div className=' text-orange-600 cursor-pointer flex items-center ml-auto'>
-            <h1 className=' font-semibold'>SEE ALL  </h1>
+            <h1 onClick={()=>router.push('https://www.jumia.co.ke/catalog/?q=dish+rack')} className=' font-semibold'>SEE ALL  </h1>
             <ChevronRightIcon className='h-5'/>
             </div>
             

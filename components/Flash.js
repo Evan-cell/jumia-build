@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import {ChevronRightIcon,BoltIcon} from '@heroicons/react/24/outline'
+import { useRouter } from 'next/router';
 function Flash() {
+    const router = useRouter()
     const initialTimeInSeconds = 7 * 24 * 60 * 60; // 7 days in seconds
     const [time, setTime] = useState(initialTimeInSeconds);
   
@@ -32,7 +34,7 @@ function Flash() {
                 <h1>Time Left : {formatTime(time)}</h1>
             </div>
             <div className='flex items-center'>
-            <h1 className=' font-semibold'>SEE ALL  </h1>
+            <h1 onClick={()=>router.push('https://www.jumia.co.ke/flash-sales/')} className=' font-semibold'>SEE ALL  </h1>
             <ChevronRightIcon className='h-5'/>
             </div>
         </div>

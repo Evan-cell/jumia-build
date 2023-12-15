@@ -1,7 +1,10 @@
 import React from 'react'
 import {ChevronRightIcon} from '@heroicons/react/24/outline'
+import { useRouter } from 'next/router'
 function TopD() {
+    const router = useRouter()
   return (
+   
     <div className='bg-white mt-5'>
         <div className='flex text-xl bg-orange-400 p-4'>
             <div className=''>
@@ -9,7 +12,7 @@ function TopD() {
             </div>
             
             <div className=' cursor-pointer flex items-center ml-auto'>
-            <h1 className=' font-semibold'>SEE ALL  </h1>
+            <h1 onClick={()=>router.push('https://www.jumia.co.ke/mlp-top-deals/')} className=' font-semibold'>SEE ALL  </h1>
             <ChevronRightIcon className='h-5'/>
             </div>
             
