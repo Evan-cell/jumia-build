@@ -9,7 +9,7 @@ import FitnessCenterOutlinedIcon from '@mui/icons-material/FitnessCenterOutlined
 import BlurCircularOutlinedIcon from '@mui/icons-material/BlurCircularOutlined';
 function BannerRight() {
   return ( 
-    <div className=''>
+    <div className='cursor-pointer'>
     <div className=' p-5 mb-3  space-y-8 bg-white rounded  shadow-lg '>
     <div className='flex space-x-2 items-center '>
         <QuestionMarkCircleIcon className='h-10 text-orange-500'/>

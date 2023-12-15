@@ -9,7 +9,7 @@ import FitnessCenterOutlinedIcon from '@mui/icons-material/FitnessCenterOutlined
 import BlurCircularOutlinedIcon from '@mui/icons-material/BlurCircularOutlined';
 function Bannerleft() {
   return (
-    <div className=' p-5  space-y-3 bg-white rounded  shadow-lg '>
+    <div className=' p-5  space-y-3 bg-white rounded  shadow-lg cursor-pointer '>
     <div className='flex space-x-2 hover:text-orange-500 '>
         <ShoppingBagIcon className='h-6'/>
         <h1 className=''>Official Stores</h1>
